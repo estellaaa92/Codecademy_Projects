@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Helvetica', 'Arial', sans-serif;  
+    font-size: 22px; 
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Header */
+
+header {
+    border-bottom: 1px solid seashell; 
+    width: 100%; 
+    position: fixed; 
+    background-color: black;
+    z-index: 10; 
+}
+
+#logo {
+    height: 50px; 
+    margin: 9px 0 9px 10px; 
+}
+
+#navbar {
+    float: right;
+    margin-top: 23px; 
+}
+
+#navbar li {
+    text-decoration: underline; 
+    list-style: none;
+    display: inline;
+    margin: 9px 10px;
+}
+
+#navbar a:hover,
+a:visited, 
+a:link,
+a:active {
+    color: seashell;
+}
+
+
+
+/* Jumbotron */
+#main {
+    padding-top: 69px; 
+    opacity: 0.9; 
+    width: 1200px;
+    margin: auto; 
+}
+
+#mission .content {
+    margin: auto; 
+    background-color: black; 
+    width: 100%; 
+    text-align: center; 
+    padding: 10px; 
+}
+#mission {
+    height: 700px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+/* Tea of the month */
+
+
+#featured {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin: 20px auto; 
+    padding: 100px; 
+}
+
+#featured h2 {
+    margin-bottom: 20px; 
+}
+
+#featured h4 {
+    margin-bottom: 20px; 
+}
+
+.teas {
+    width: 1000px; 
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-content: space-between;
+    position: relative; 
+}
+
+.container {
+    justify-content: center; 
+    text-align: center; 
+}
+.container img {
+    height: 200px;
+    width: 300px; 
+    margin: 10px 15px; 
+}
+
+/* locations */
+#locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    height: 500px; 
+    width: 1200px; 
+    margin: 10px auto; 
+    display: block; 
+    text-align: center;
+    padding: 70px; 
+}
+
+#locations h2 {
+    padding: 20px 0 15px 0;
+}
+
+.squares {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.address {
+    background-color: black;
+    opacity: 1; 
+    width: 300px;
+    height: 300px; 
+    text-align: center; 
+    margin: 15px 20px;
+}
+
+.address h3, p {
+    margin: 15px 10px; 
+    line-height: 60px; 
+    padding-top: 10px; 
+}
+
+/* contact */
+.contact {
+    height: 200px; 
+    width: 1200px; 
+    text-align: center; 
+    margin: 20px auto;
+}
+
+.contact h5 {
+    margin-top: 30px; 
+}
+
+/* footer */
+footer {
+    padding: 20px; 
+    font-weight: bold; 
+}
